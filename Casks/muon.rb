@@ -4,7 +4,7 @@ cask "muon" do
 
   url "https://github.com/harshdvaid24/muon/releases/download/v#{version}/Muon.zip"
   name "Muon"
-  desc "Local, on-device AI agent for macOS"
+  desc "Local, on-device AI agent that finds, cleans up, opens and builds"
   homepage "https://harshdvaid24.github.io/muon/"
 
   depends_on arch: :arm64
