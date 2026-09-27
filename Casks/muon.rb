@@ -8,8 +8,8 @@ cask "muon" do
   homepage "https://harshdvaid24.github.io/muon/"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe"
   depends_on formula: "node"
+  depends_on macos: :tahoe
 
   app "Muon.app"
 
