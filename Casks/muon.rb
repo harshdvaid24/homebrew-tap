@@ -1,10 +1,10 @@
 cask "muon" do
-  version "0.1.0"
-  sha256 "28b5c0cb8596851f9384a0aa5bc2f154b32fafa1dfff371f0acc4036668a1c10"
+  version "0.2.0"
+  sha256 "b2d3130aefc8b375822925bba6cd2aea6dadf550c7d5a7013fec019a42ef5def"
 
   url "https://github.com/harshdvaid24/muon/releases/download/v#{version}/Muon.zip"
   name "Muon"
-  desc "Local, on-device AI agent that finds, cleans up, opens and builds"
+  desc "Local AI for your Mac: writing help, error explanations, document and screenshot answers, meeting notes"
   homepage "https://harshdvaid24.github.io/muon/"
 
   depends_on arch: :arm64
