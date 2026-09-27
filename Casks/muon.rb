@@ -1,6 +1,6 @@
 cask "muon" do
-  version "0.3.0"
-  sha256 "16f22bc81ecdd59ef0b70284c46ca43189c784f54d0f78d414acec6fefa6dcd8"
+  version "0.3.1"
+  sha256 "2b286c74ce87d33c987f8ca2b2a2165ee262fe933f512e0fb906a954c062355f"
 
   url "https://github.com/harshdvaid24/muon/releases/download/v#{version}/Muon.zip"
   name "Muon"
